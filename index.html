@@ -3,50 +3,44 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>ticket</title>
+    <title>ticket</title
   </head>
-  <body>
-    <div id="close">
-      Close
-    </div>
+  <body onload="start();">
+    <div id="close">Close</div>
     <div id="ticket">
-      <div id="header">
-        One Way Intermediate
-      </div>
-      <div id="code">
-        insert qr generator here
-      </div>
-      <div id="time">
-        6:54:44 PM 11/21/2021
-      </div>
+      <div id="header">One Way Intermediate</div>
+      <div id="qrcode"></div>
+      <div id="time"><div id="time_data"></div></div>
       <div id="information">
-        <div id="name">
-          Metro-North Railroads
-        </div>
-        <div id="package">
-          Ten Trip
-        </div>
+        <div id="name">Metro-North Railroad</div>
+        <div id="package">Ten Trip</div>
       </div>
       <div id="station">
-        NEW HVN
-        21
-        STAMFRD
-        16
+        <img id="logo" src="images/logo.png">
+        <div id="station1">NEW HVN</div>
+        <div id="station1_number">21</div>
+        <div id="station2">STAMFRD</div>
+        <div id="station2_number">16</div>
+        <div id="triangle-up">P<div id="p">P</div></div>
+      </div>
+      <div id="link">
+        <img id="arrow-out-of-box" src="images/arrowoutofbox.png">
+        Train Time
       </div>
       <div id="footer">
-        <div class="left">
-          <img id="toggle-button" src="common-folder/toggle-button.png" alt="toggle-button">
-          ...Actions
+
+        <div id="actions">
+          <img id="three-dots" src="images/threedots.png">
+          Actions
         </div>
-        <div class="right">
-          <img id="toggle-button" src="common-folder/toggle-button.png" alt="toggle-button">
+        <div id="ticket-information">
+          <img id="three-dots-with-lines" src="images/threedotswithlines.png">
           Ticket Info
         </div>
       </div>
-      <div id="link">
-        Train Time
-      </div>
+
     </div>
   </body>
+  <script src="qrcode.js"></script>
   <script src="main.js"></script>
 </html>
