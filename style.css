@@ -1,4 +1,65 @@
 body {
-  background-color:#223165;
+  background-color:#f7f7f7;
   font-family:helvetica;
+  /*overflow:scroll;*/
+  position:relative;
+  /*left:320px;*/
+  width:500px;
+  /*border:1px solid red;*/
 }
+#close {
+  color:#223165;
+  /*border:1px solid red;*/
+  text-align:right;
+}
+#ticket {
+  background-color:#ffffff;
+}
+#header {
+  background-color:#223165;
+  color:white;
+  text-align:center;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+#code {
+  text-align:center;
+  padding-top:150px;
+  padding-bottom:150px;
+}
+#time {
+  background:linear-gradient(to right, #68acac, #68acac 33.33%, #ffc757 33.33%, #ffc757 66.66%, #eb5766 66.66%);
+  text-align:center;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#information {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+#name {
+  float:left;
+}
+#package {
+  float:right;
+}
+#station {
+  padding-top:150px;
+  padding-bottom:150px;
+}
+#footer {
+  border-bot-left-radius:10px;
+  border-bot-right-radius:10px;
+}
+#link {
+  background-color:#223165;
+  text-align:center;
+  color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+/*remember to add gradient to make it look natural*/
